@@ -119,6 +119,7 @@ kubectl -n ${VELERO_NS} rollout restart deploy/velero
 kubectl -n ${VELERO_NS} rollout status deploy/velero
 
 kubectl -n ${VELERO_NS} get backupstoragelocation
+kubectl get namespaces
 echo
 
 # ==================================================
